@@ -147,9 +147,14 @@
 	..()
 
 /obj/item/projectile/bullet/pellet/trainshot
-	damage = 15 // less pellets, more dam + tiny bit of pen
-	armour_penetration = 0.4
-	sharpness = SHARP_NONE
+	damage = 15
+	stamina = 10
+	armour_penetration = 0.45
+	wound_bonus = 15
+	bare_wound_bonus = 15
+	sharpness = SHARP_NONE //crunch
+	tile_dropoff = 0
+	tile_dropoff_s = 0
 
 /obj/item/projectile/bullet/pellet/trainshot/on_hit(atom/target)
 	. = ..()
