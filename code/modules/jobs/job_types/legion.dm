@@ -365,8 +365,8 @@ commented out pending rework*/
 	suit_store = /obj/item/twohanded/thermic_lance
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/spatha = 1,
-		/obj/item/gun/ballistic/automatic/smg/cg45 = 1,
-		/obj/item/ammo_box/magazine/cg45 = 2,
+		/obj/item/gun/ballistic/automatic/smg/smg14 = 1,
+		/obj/item/ammo_box/magazine/smg14 = 2,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 2,
 		)
 
